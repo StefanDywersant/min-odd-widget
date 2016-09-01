@@ -1,0 +1,18 @@
+{
+   "name": "min-odd-widget",
+   "version": "1.0.0",
+   "description": "A widget to display 3 events with lowest odds for the home team to win",
+   "main": "dist/index.html",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "changelog": "changelog kambi-sportsbook-widgets/min-odd-widget all -m > CHANGELOG.md"
+   },
+   "devDependencies": {
+      "changelog": "latest",
+      "gulp": "^3.9.0",
+      "widget-core-library": "git+ssh://git@github.com/kambi-sportsbook-widgets/widget-core-library.git#v2.10.0",
+      "widget-build-tools": "git+ssh://git@github.com:kambi-sportsbook-widgets/widget-build-tools.git#v1.4.5",
+      "require-dir": "^0.3.0"
+   },
+   "license": "ISC"
+}
